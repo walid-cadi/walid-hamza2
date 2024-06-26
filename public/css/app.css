@@ -1,4 +1,7 @@
-
+*{
+    padding: 0;
+    margin: 0;
+}
 
 nav {
   padding: 8vh 15vw;
