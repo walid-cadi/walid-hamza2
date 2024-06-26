@@ -1,4 +1,37 @@
-*{
-    padding: 0;
-    margin: 0;
+
+
+nav {
+  padding: 8vh 15vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-logo span {
+  color: #314584;
+  cursor: pointer;
+  font-size: xx-large;
+}
+.nav-logo span:hover {
+  border-bottom: 8px solid #ff3946;
+  transition: 0.2s;
+}
+.nav-links {
+  display: flex;
+  gap: 3vw;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #314584;
+}
+.nav-links a:hover {
+  color: #ff3946;
+}
+.nav-btn button {
+  cursor: pointer;
+  border: none;
+  padding: 2vh 4vw;
+  color: #ff3946;
+  background-color: white;
+  box-shadow: 1px 1px 5px #888888;
+  border-radius: 2px;
 }
