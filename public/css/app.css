@@ -1,34 +1,41 @@
 * {
-  padding: 0;
-  margin: 0;
-  font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
 }
+
 nav {
-  padding: 8vh 15vw;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    padding: 8vh 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
 .nav-logo span {
-  color: #314584;
-  cursor: pointer;
-  font-size: xx-large;
+    color: #314584;
+    cursor: pointer;
+    font-size: xx-large;
 }
+
 .nav-logo span:hover {
-  border-bottom: 8px solid #ff3946;
-  transition: 0.2s;
+    border-bottom: 8px solid #ff3946;
+    transition: 0.2s;
 }
+
 .nav-links {
-  display: flex;
-  gap: 3vw;
+    display: flex;
+    gap: 3vw;
 }
+
 .nav-links a {
-  text-decoration: none;
-  color: #314584;
+    text-decoration: none;
+    color: #314584;
 }
+
 .nav-links a:hover {
-  color: #ff3946;
+    color: #ff3946;
 }
+
 .nav-btn button {
   cursor: pointer;
   border: none;
@@ -42,42 +49,49 @@ nav {
 /*section1*/
 
 .section1 {
-  display: flex;
-  gap: 50px;
-  padding-inline: 15vw;
+    display: flex;
+    gap: 50px;
+    padding-inline: 15vw;
 }
+
 .sec1-big {
-  width: 50%;
-  padding-top: 150px;
+    width: 50%;
+    padding-top: 150px;
 }
+
 .sec1-big2 {
-  width: 70%;
+    width: 70%;
 }
+
 .sec1-big h1 {
-  color: #314584;
-  font-size: 58px;
+    color: #314584;
+    font-size: 58px;
 }
+
 .sec1-big p {
-  padding-top: 20px;
-  font-size: 20px;
+    padding-top: 20px;
+    font-size: 20px;
 }
+
 .sec1-btn {
-  padding-top: 20px;
+    padding-top: 20px;
 }
+
 .sec1-btn button:first-of-type {
-  background-color: #ff3946;
-  color: white;
-  padding: 10px 50px;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
+    background-color: #ff3946;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
 }
+
 .sec1-btn button:last-of-type {
-  color: black;
-  padding: 10px 50px;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
+    color: black;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
 .section2 {
@@ -115,4 +129,129 @@ nav {
 }
 .sec2-card h2 {
   color: #314584;
+}
+
+/*section3*/
+
+
+.section3 {
+    padding-inline: 15vw;
+}
+
+.sec3-big p {
+    color: #ff3b46;
+    padding-bottom: 10px;
+}
+
+.sec3-big h1 {
+    color: #314584;
+    font-size: 30px;
+}
+
+.sec3-big2 {
+    padding-top: 30px;
+}
+
+.inp1 {
+    width: 30vw;
+    padding: 10px;
+    background-color: #f4fafe;
+    border: none;
+
+}
+
+.inp2 {
+    width: 30vw;
+    padding: 10px;
+    background-color: #f4fafe;
+    border: none;
+    margin-left: 2vw;
+
+}
+
+.sec3-big3 {
+    padding-top: 30px;
+}
+
+.sec3-big3 textarea {
+    padding: 20px;
+    border: none;
+    background-color: #f4fafe;
+}
+
+.sec3-btn {
+    padding: 50px;
+    text-align: center;
+}
+
+.sec3-btn button {
+    padding: 10px 40px;
+    background-color: #ff3946;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+
+/*Footer*/
+
+
+footer {
+    background-color: #314584;
+    color: white;
+}
+
+.fot-big {
+    text-align: center;
+}
+
+.fot-big p {
+    padding-top: 60px;
+}
+
+.fot-big h1 {
+    font-size: 40px;
+    color: red;
+    padding-top: 20px;
+
+}
+
+.fot-link {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+
+
+}
+
+.fot-link a {
+    color: white;
+    text-decoration: none;
+}
+
+.fot-link a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.copyr {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.copyr p {
+    font-size: 12px;
+
+}
+
+.icon {
+    padding: 30px;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+}
+
+.icon i {
+    font-size: 30px;
 }
