@@ -1,6 +1,7 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
 }
 nav {
   padding: 8vh 15vw;
@@ -40,43 +41,41 @@ nav {
 
 /*section1*/
 
-.section1{
-    display: flex;
-    gap: 50px;
-    padding-inline:15vw ;
+.section1 {
+  display: flex;
+  gap: 50px;
+  padding-inline: 15vw;
 }
-.sec1-big{
-    width: 50%;
-    padding-top: 150px;
+.sec1-big {
+  width: 50%;
+  padding-top: 150px;
 }
-.sec1-big2{
-    width: 70%;
+.sec1-big2 {
+  width: 70%;
 }
-.sec1-big h1{
-    color: #314584;
-    font-size: 58px;
-
+.sec1-big h1 {
+  color: #314584;
+  font-size: 58px;
 }
-.sec1-big p{
-    padding-top: 20px;
-    font-size: 20px;
+.sec1-big p {
+  padding-top: 20px;
+  font-size: 20px;
 }
-.sec1-btn{
-    padding-top: 20px;
+.sec1-btn {
+  padding-top: 20px;
 }
-.sec1-btn button:first-of-type{
-    background-color: #ff3946;
-    color: white;
-    padding: 10px 50px;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
+.sec1-btn button:first-of-type {
+  background-color: #ff3946;
+  color: white;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
 }
-.sec1-btn button:last-of-type{
-    color: black;
-    padding: 10px 50px;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
+.sec1-btn button:last-of-type {
+  color: black;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
 }
-
