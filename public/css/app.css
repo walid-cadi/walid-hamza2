@@ -251,9 +251,12 @@ footer {
   nav {
     padding-inline: 0;
     width: 100vw;
+    flex-direction: column;
+    gap: 3vh;
   }
   .nav-links {
-    display: none;
+    flex-direction: column;
+    align-items: center;
   }
   .section1 {
     padding-inline: 0;
@@ -267,6 +270,11 @@ footer {
   .sec1-big2 {
     width: 100%;
   }
+  .sec1-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+  }
   .section2 {
     padding-inline: 0;
     flex-direction: column;
@@ -274,6 +282,15 @@ footer {
   }
   .section3 {
     padding-inline: 0;
+  }
+  .sec3-big2 form {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+  }
+  .sec3-big2 form input {
+    width: 90%;
+    margin: 0;
   }
   .sec3-big3 textarea {
     width: 90vw;
