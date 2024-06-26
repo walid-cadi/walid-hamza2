@@ -35,7 +35,7 @@ nav {
   padding: 2vh 4vw;
   color: #ff3946;
   background-color: white;
-  box-shadow: 1px 1px 5px #888888;
+  box-shadow: 1px 1px 5px #88888895;
   border-radius: 2px;
 }
 
@@ -78,4 +78,41 @@ nav {
   border: none;
   border-radius: 20px;
   cursor: pointer;
+}
+
+.section2 {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  padding-inline: 15vw;
+  display: flex;
+  gap: 6vw;
+}
+.sec2-text {
+  width: 65vw;
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+.sec2-text h1 {
+  color: #314584;
+}
+.sec2-text button {
+  width: 70%;
+  border: none;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: #ff3946;
+  color: white;
+}
+.sec2-card {
+  padding: 5vh 3vw 7vh;
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  box-shadow: 1px 1px 5px #888888b5;
+}
+.sec2-card h2 {
+  color: #314584;
 }
